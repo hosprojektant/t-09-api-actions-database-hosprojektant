@@ -1,6 +1,6 @@
 import { eq } from 'drizzle-orm';
 
-import { users } from '@/db/users';
+import { users } from '@/db/schema';
 import { db } from '@/index';
 
 export const findUserByUsername = async (username: string) =>

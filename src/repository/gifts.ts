@@ -1,8 +1,7 @@
 import { eq } from 'drizzle-orm';
 
-import { gifts } from '@/db/gifts';
-
-import { db } from '../index';
+import { gifts } from '@/db/schema';
+import { db } from '@/index';
 
 export const createGift = async (gift: {
 	name: string;
