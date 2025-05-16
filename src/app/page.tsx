@@ -2,7 +2,7 @@ import { PageLink } from '@/components/page-link';
 
 const Home = () => (
 	<>
-		<h1 className="text-3xl">Task 06 - Forms, Async</h1>
+		<h1 className="text-3xl">Task 09 - Server actions, Database</h1>
 
 		<div className="mt-10">
 			<div className="flex w-1/2 flex-col gap-y-2 md:w-1/6">

@@ -8,7 +8,7 @@ import { Providers } from '@/components/providers';
 const poppins = Poppins({ subsets: ['latin'], weight: ['400'] });
 
 export const metadata: Metadata = {
-	title: 'Task 06'
+	title: 'Task 09'
 };
 
 const RootLayout = ({

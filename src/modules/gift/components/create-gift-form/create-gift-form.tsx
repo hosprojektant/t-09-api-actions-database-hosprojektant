@@ -11,7 +11,6 @@ import { createGiftAction } from '@/actions/giftActions';
 import { type CreateGiftFormSchema, createGiftFormSchema } from './schema';
 
 export const CreateGiftForm = ({ userId }: { userId: number }) => {
-
 	const form = useForm<CreateGiftFormSchema>({
 		resolver: zodResolver(createGiftFormSchema),
 		defaultValues: {
@@ -20,7 +19,6 @@ export const CreateGiftForm = ({ userId }: { userId: number }) => {
 	});
 
 	const onSubmit = async (data: CreateGiftFormSchema) => {
-
 		try {
 			await createGiftAction(data);
 			toast.success(`Gift "${data.name}" created!`);
